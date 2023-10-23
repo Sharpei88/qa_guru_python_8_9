@@ -23,7 +23,7 @@ def test_dynamic_steps(config_browser):
     with allure.step("Переходим по ссылке репозитория"):
         s(by.link_text("Sharpei88/qa_guru_python_8_9")).click()
 
-    with allure.step("Открываем таб Issues"):
+    with allure.step("Открываем вкладку Issues"):
         s("#issues-tab").click()
 
     with allure.step("Проверяем наличие Issue с именем 'Test issue'"):
